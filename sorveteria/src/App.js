@@ -1,8 +1,11 @@
 import React from 'react';
 import Rotas from './Rotas';
+import './App.css';
 
-export default function App(){
-  return(
-    <Rotas/>
+function App() {
+  return (
+    <Rotas />
   );
 }
+
+export default App;

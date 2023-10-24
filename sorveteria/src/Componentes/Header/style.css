@@ -1,0 +1,28 @@
+header{
+    background-color:#fcdc7c;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logo{
+    width: 45px;
+    height: 40px;
+}
+
+.img-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
