@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-banner{
+    margin-top: 20px;
+    height: 95vh;
+    background-color: #fcdc7c;
+    background-image: url("/public/assets/banner-home.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-banner h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 3px 3px 2px black;
+}
+
+.secao-cards{
+    width: 100%;
+    display: flex;
+}
+
+.secao-cards .card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.secao-cards .card-img{
+    width: 50%;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h4{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.card p{
+    width: 56%;
+}

@@ -1,7 +1,9 @@
 header{
+    width: 100%;
     background-color:#fcdc7c;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .secao-topo{

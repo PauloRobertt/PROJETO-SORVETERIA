@@ -17,11 +17,16 @@ footer .container-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    height: 30vh;
 }
 
 .footer-info{
+    width: 200px;
     margin: 20px;
     text-align: left;
-    line-height: 15px;
+    line-height: 25px;
+}
+
+.Footer{
+    padding: 10px;
 }

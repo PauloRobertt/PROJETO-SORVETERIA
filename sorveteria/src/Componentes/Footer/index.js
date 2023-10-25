@@ -11,7 +11,7 @@ export default function Footer(){
                     </div>
                     <div className='footer-info'>
                         <h4>ENDEREÇO</h4>
-                        <p>Av.Bernardino de Camps, 98</p>
+                        <p>Av.Bernardino de Campos, 98</p>
                         <p>São Paulo, SP 12345-678</p>
                     </div>
                     <div className='footer-info'>
