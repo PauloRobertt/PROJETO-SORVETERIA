@@ -1,0 +1,27 @@
+footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-logo{
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+}
+
+.footer-Contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-info{
+    margin: 20px;
+    text-align: left;
+    line-height: 15px;
+}
