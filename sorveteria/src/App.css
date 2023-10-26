@@ -1,4 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .secao-limitada{
   width: 60%;
   text-align: center;
+}
+
+.secao-banner{
+  margin-top: 20px;
+  width: 100%;
+  height: 95vh;
+  background-color: #fcdc7c;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao-banner h1{
+  color: white;
+  font-size: 70px;
+  text-shadow: 3px 3px 2px black;
 }

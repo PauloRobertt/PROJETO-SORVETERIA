@@ -1,35 +1,13 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .Home{
     display: flex;
     flex-direction: column;
 }
 
-.secao-banner{
-    margin-top: 20px;
-    height: 95vh;
-    background-color: #fcdc7c;
+.Home .secao-banner{
     background-image: url("/public/assets/banner-home.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.secao-banner h1{
-    color: white;
-    font-size: 70px;
-    text-shadow: 3px 3px 2px black;
-}
-
-.secao-cards{
+.Home .secao-cards{
     width: 100%;
     display: flex;
 }
@@ -39,11 +17,11 @@
     height: 100%;
 }
 
-.secao-cards .card-img{
+.Home .secao-cards .card-img{
     width: 50%;
 }
 
-.card{
+.Home .card{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -51,11 +29,11 @@
     align-items: center;
 }
 
-.card h4{
+.Home .card h4{
     font-style: italic;
     margin-bottom: 20px;
 }
 
-.card p{
+.Home .card p{
     width: 56%;
 }
