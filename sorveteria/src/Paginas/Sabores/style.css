@@ -6,6 +6,7 @@
 .PaginaSabores .secao-banner{
     background-image: url("/public/assets/banner-sabores.jpg");
     background-size: cover;
+    height: 70vh;
 }
 
 .secao-sabores{

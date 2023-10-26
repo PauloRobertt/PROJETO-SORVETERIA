@@ -1,0 +1,25 @@
+.PaginaSobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.PaginaSobre .secao-banner{
+    background-image: url("/public/assets/banner-sobre.png");
+    background-size: cover;
+    height: 70vh;
+}
+
+.secao-sobre{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 55vh;
+    gap: 20px;
+}
+
+.secao-sobre p{
+    width: 66%;
+}
