@@ -40,3 +40,44 @@
     box-shadow: 0px 0px 8px gray;
     text-align: center;
 }
+
+@media screen and (max-width:436px){
+    .secao-sabores .secao-cards{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secao-sabores h3{
+        font-size: 25px;
+    }
+
+    .secao-sabores .cards{
+        min-width: 95%;
+    }
+
+    .secao-sabores .cards p{
+        width: 70%;
+    }
+
+}
+@media screen and (min-width:437px) and (max-width:768px){
+    .secao-sabores .secao-cards{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secao-sabores h3{
+        font-size: 25px;
+    }
+
+    .secao-sabores .cards{
+        min-width: 70%;
+    }
+
+    .secao-sabores .cards img{
+        width: 250px;
+        height: 200px;
+    }
+}
