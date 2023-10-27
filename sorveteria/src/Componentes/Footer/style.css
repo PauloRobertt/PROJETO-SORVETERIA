@@ -18,15 +18,42 @@ footer .container-logo{
     justify-content: center;
     align-items: center;
     height: 30vh;
+    gap: 30px;
 }
 
 .footer-info{
     width: 200px;
-    margin: 20px;
     text-align: left;
     line-height: 25px;
 }
 
-.Footer{
+.desenvolvedor{
     padding: 10px;
+}
+
+@media screen and (max-width:436px){
+    .footer-Contatos{
+        flex-direction: column;
+        height: 70vh;
+        gap: 10px;
+    }
+
+    .footer-info{
+        text-align: center;
+        width: 220px;
+    }
+
+}
+
+@media screen and (min-width:437px) and (max-width:768px){
+    .footer-Contatos{
+        flex-direction: column;
+        height: 70vh;
+        gap: 10px;
+    }
+
+    .footer-info{
+        text-align: center;
+        width: 220px;
+    }
 }

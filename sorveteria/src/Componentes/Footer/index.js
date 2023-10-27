@@ -25,9 +25,9 @@ export default function Footer(){
                         <p>10:00 - 22:00</p>
                     </div>
                 </section>
-                <section className='Footer'>
+                <section className='desenvolvedor'>
                     <p>
-                        Gelateria. Orgulhosamente desenvolvido por "Paulo Robert Lima Gomes"
+                        Gelateria. Orgulhosamente desenvolvido por "Paulo Robert Lima Gomes".
                     </p>
                 </section>
             </div>
