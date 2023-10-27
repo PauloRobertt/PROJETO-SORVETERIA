@@ -28,3 +28,27 @@
   font-size: 70px;
   text-shadow: 3px 3px 2px black;
 }
+
+@media screen and (max-width:436px){
+  .secao-limitada{
+    width: 100%;
+  }
+
+  .secao-banner h1{
+    font-size: 45px;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:437px) and (max-width:768px){
+  .secao-limitada{
+    width: 100%;
+  }
+
+  .secao-banner h1{
+    font-size: 45px;
+    text-align: center;
+    width: 90%;
+  }
+}
