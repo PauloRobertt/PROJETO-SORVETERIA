@@ -37,3 +37,48 @@
 .Home .card p{
     width: 56%;
 }
+
+@media screen and (max-width:436px){
+    .Home .secao-cards{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .Home .secao-cards:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .Home .secao-cards .card-img{
+        width: 100%;
+    }
+
+    .Home .card{
+        width: 80%;
+        text-align: center;
+        padding: 40px 0px;
+    }
+}
+@media screen and (min-width:437px) and (max-width:768px){
+    .Home .secao-cards{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .Home .secao-cards:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .Home .secao-cards .card-img{
+        width: 100%;
+        height: 55vh;
+    }
+
+    .Home .card{
+        width: 80%;
+        height: 55vh;
+        text-align: center;
+        padding: 40px 0px;
+    }
+}

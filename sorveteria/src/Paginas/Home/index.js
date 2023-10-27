@@ -14,7 +14,7 @@ export default function Home(){
                 <section className='secao-cards'>
                     <div className='card-img' >
                         <img src="assets/banner-sabores.jpg" alt=""/>
-                        </div>
+                    </div>
                     <div className='card'>
                         <h2>NOSSOS SABORES</h2>
                         <h4>Novos e deliciosos!</h4>
@@ -33,7 +33,7 @@ export default function Home(){
                     </div>
                     <div className='card-img' >
                         <img src="assets/eventos-image.jpg" alt=""/>
-                        </div>
+                    </div>
                 </section>
                 <section className='secao-cards'>
                     <div className='card-img' >
