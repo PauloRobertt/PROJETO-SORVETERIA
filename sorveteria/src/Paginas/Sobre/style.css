@@ -23,3 +23,19 @@
 .secao-sobre p{
     width: 66%;
 }
+@media screen and (max-width:436px){
+    .secao-sobre{
+        height: 100%;
+        padding: 70px 0px;
+    }
+
+    .secao-sobre p{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:437px) and (max-width:768px){
+    .secao-sobre p{
+        width: 85%;
+    }
+}
